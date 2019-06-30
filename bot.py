@@ -18,8 +18,9 @@ class MyClient(discord.Client):
         if message.author == self.user:
             return
 
-        if message.content == 'حمودظة':
-            await message.channel.send("متجيبش سيرته")
+        if message.content == 'hi':
+            await message.channel.send("bye")
 
 client = MyClient()
-client.run('NTY2OTgwMTIwMzU5NzMxMjAw.XRjiSA.rXX1RqQxHt-TiORprNvNKrghTgI')
+
+client.run(str(os.environ.get('NTY2OTgwMTIwMzU5NzMxMjAw.XRjiSA.rXX1RqQxHt-TiORprNvNKrghTgI')))
