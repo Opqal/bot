@@ -1,0 +1,8 @@
+discord
+asyncio
+pymoe
+youtube_dl
+pip
+django
+gunicorn
+django-heroku
